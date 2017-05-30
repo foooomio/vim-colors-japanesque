@@ -22,8 +22,8 @@ let s:red        = '#D05A6E'
 let s:magenta    = '#F596AA'
 " 苗
 let s:green      = '#86C166'
-" 鶯
-let s:dark_green = '#6C6A2D'
+" 群青
+let s:blue       = '#5CABDC'
 " 藤
 let s:purple     = '#8B81C3'
 " 鬱金
@@ -49,10 +49,10 @@ call s:hi('VertSplit',  { 'guifg': s:dark_gray, 'guibg': s:dark_gray})
 call s:hi('Error',      { 'guifg': s:red, 'guibg': 'NONE'})
 call s:hi('ErrorMsg',   { 'guifg': s:red, 'guibg': 'NONE'})
 call s:hi('WarningMsg', { 'guifg': s:yellow})
-call s:hi('SpecialKey', { 'guifg': s:dark_green})
+call s:hi('SpecialKey', { 'guifg': s:blue})
 call s:hi('Visual',     { 'gui': 'reverse', 'guifg': 'fg', 'guibg': 'bg'})
-call s:hi('Folded',     { 'gui': 'underline', 'guifg': s:dark_green, 'guibg': 'bg'})
-call s:hi('MoreMsg',    { 'guifg': s:dark_green})
+call s:hi('Folded',     { 'gui': 'underline', 'guifg': s:blue, 'guibg': 'bg'})
+call s:hi('MoreMsg',    { 'guifg': s:blue})
 call s:hi('Conceal',    { 'guifg': s:dark_gray})
 call s:hi('Question',   { 'guifg': s:green})
 call s:hi('DiffAdd',    { 'guifg': 'fg', 'guibg': s:green})
@@ -75,8 +75,8 @@ call s:hi('Normal',     { 'guifg': s:white, 'guibg': s:black })
 call s:hi('NonText',    { 'guifg': s:dark_gray })
 call s:hi('Comment',    { 'guifg': s:gray })
 call s:hi('Constant',   { 'guifg': s:magenta })
-call s:hi('Statement',  { 'guifg': s:dark_green })
-call s:hi('PreProc',    { 'guifg': s:dark_green })
+call s:hi('Statement',  { 'guifg': s:blue })
+call s:hi('PreProc',    { 'guifg': s:blue })
 call s:hi('Type',       { 'guifg': s:yellow })
 call s:hi('Identifier', { 'guifg': s:purple })
 call s:hi('Function',   { 'guifg': s:green })
