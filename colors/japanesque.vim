@@ -84,3 +84,55 @@ call s:hi('Function',   { 'guifg': s:green })
 call s:hi('Conceal',    { 'guifg': s:dark_gray, 'guibg': 'NONE' })
 call s:hi('Special',    { 'guifg': s:yellow })
 call s:hi('Title',      { 'guifg': s:purple })
+
+highlight default link Noise Conceal
+
+" Perl
+highlight default link perlVarPlain Identifier
+highlight default link perlVarPlain2 Identifier
+highlight default link perlStatementStorage StorageClass
+highlight default link perlSharpBang Comment
+highlight default link perlStringStartEnd Conceal
+highlight default link perlMatchStartEnd Conceal
+highlight default link perlFunction Statement
+highlight default link perlSubName Function
+highlight default link perlOperator Operator
+highlight default link perlMethod Function
+highlight default link perlStatementInclude Include
+
+" JavaScript
+highlight default link jsObjectKey Type
+highlight default link jsFuncCall Function
+
+" HTML
+highlight default link htmlTag Conceal
+highlight default link htmlEndTag Conceal
+highlight default link htmlTagName Identifier
+
+" TT2
+highlight default link tt2_tag Conceal
+highlight default link tt2_bracket_r Conceal
+highlight default link tt2_operator Conceal
+
+" TypeScript
+highlight default link typescriptEndColons Conceal
+highlight default link typescriptParens Conceal
+highlight default link typescriptBraces Conceal
+
+" Git
+highlight default link gitcommitWarning WarningMsg
+
+" Fugitive
+highlight default link FugitiveblameDelimiter Delimiter
+
+" Ruby
+highlight default link rubyStringDelimiter Conceal
+
+" Vim
+highlight default link vimParenSep Conceal
+
+" Markdown
+highlight default link mkdDelimiter Statement
+
+" YAML
+highlight default link yamlKeyValueDelimiter Statement
