@@ -61,6 +61,9 @@ call s:hi('DiffDelete', { 'guifg': 'fg', 'guibg': s:red})
 call s:hi('DiffChange', { 'guifg': 'fg', 'guibg': s:yellow})
 call s:hi('DiffText',   { 'gui': 'reverse', 'guifg': 'fg', 'guibg': s:yellow})
 call s:hi('MatchParen', { 'guibg': s:yellow})
+call s:hi('Directory',  { 'guifg': s:blue })
+call s:hi('WildMenu',   { 'gui': 'reverse', 'guifg': s:yellow, 'guibg': 'NONE' })
+call s:hi('ColorColumn',{ 'guibg': s:white })
 
 if v:version >= 700
   call s:hi('Cursor', { 'gui': 'reverse', 'guifg': 'NONE', 'guibg': 'NONE' })
