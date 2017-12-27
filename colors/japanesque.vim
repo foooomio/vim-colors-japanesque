@@ -8,8 +8,8 @@ if exists('syntax_on')
   syntax reset
 endif
 
-" 紫紺
-let s:black      = '#3C2F41'
+" 鉄黒
+let s:black      = '#2A2A2A'
 " 菜の花
 let s:white      = '#F7F1D5'
 " 灰
